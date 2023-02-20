@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: 'Say hello'
-          command: 'echo Hello, World!'
+          command: 'echo $MY_TEST'
       - run:
           name: 'Info'
           command: |
